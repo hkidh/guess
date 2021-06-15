@@ -13,6 +13,8 @@ r = random.randint(i,j)
 while True:
 	x = input('請輸入數字')
 	y = y + 1
+	if y == 10:
+		print(r)
 	x = int(x)
 	if x == r:
 		print('你猜對了')
@@ -23,4 +25,5 @@ while True:
 	elif x < r:
 		print('請猜大一點')
 	print('猜了第', y, '次了')
+	
 
