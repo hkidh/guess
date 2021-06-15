@@ -22,5 +22,5 @@ while True:
 		print('請猜小點')
 	elif x < r:
 		print('請猜大一點')
-
+	print('猜了第', y, '次了')
 
